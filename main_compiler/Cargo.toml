@@ -4,8 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+clap = { workspace = true, features = ["cargo", "derive", "env", "string", "unicode", "wrap_help"] }
 enum_dispatch = { workspace = true }
 inkwell = { workspace = true, features = ["llvm22-1"] }
+is-terminal = { workspace = true }
 llvm-sys = { workspace = true }
 serde = { workspace = true, features = ["alloc", "derive", "rc", "unstable"] }
 slotmap = { workspace = true, features = ["serde", "unstable"] }

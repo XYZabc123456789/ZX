@@ -13,6 +13,8 @@ slotmap = "1.1.1"
 variadics = "0.1.0"
 inkwell = "0.10.0"
 llvm-sys = "221.1.0"
+clap = "4.6.7"
+is-terminal = "0.4.17"
 
 [profile.release]
 codegen-units = 1
