@@ -1,0 +1,12 @@
+[package]
+name = "main_compiler"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+enum_dispatch = { workspace = true }
+inkwell = { workspace = true, features = ["llvm22-1"] }
+llvm-sys = { workspace = true }
+serde = { workspace = true, features = ["alloc", "derive", "rc", "unstable"] }
+slotmap = { workspace = true, features = ["serde", "unstable"] }
+variadics = { workspace = true }
