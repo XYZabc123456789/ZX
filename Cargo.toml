@@ -1,0 +1,14 @@
+[workspace]
+resolver = "3"
+members = ["cli", "parser", "utils"]
+
+[workspace.package]
+authors = ["XYZabc123456789 <264301988+XYZabc123456789@users.noreply.github.com>"]
+license = "GPL-3.0-or-later"
+version = "0.1.0"
+edition = "2024"
+
+[workspace.dependencies]
+clap = "4.6.7"
+serde = "1.0.229"
+serde_json = "1.0.154"
